@@ -5,6 +5,8 @@ Web app to see which processes expose ports (LISTEN) and how they connect to oth
 **Stack:** Next.js 15, TypeScript, Tailwind, shadcn/ui, React Flow.  
 **Data:** `ss -tlnp` / `ss -tnp`, process names from `/proc`, optional Docker container labels.
 
+![Table view — Listeners (ports exposed)](docs/table-view.png)
+
 ## Run
 
 **Development:**
